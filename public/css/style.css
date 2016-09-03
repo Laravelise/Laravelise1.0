@@ -1,0 +1,29 @@
+body {
+ font-size: 14px;
+ background: #F2F4F5;
+ }
+
+.background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: 50% 50% no-repeat;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+  .header .background {
+  background-image: url("../img/bg.jpg");
+  height: 400px;
+  z-index: -1;
+  }
+
+
+  .header-text {
+    color: #ffffff;
+
+  }
